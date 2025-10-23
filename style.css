@@ -1,66 +1,64 @@
-/* ----- Estilo general ----- */
+/* ===== Estilos generales ===== */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #0d1b2a; /* azul oscuro elegante */
+  background-color: #0b0f26;
   color: #fff;
-  font-family: "Poppins", sans-serif; /* sans serif */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-/* ----- Título principal ----- */
-h1 {
-  font-family: "Playfair Display", serif; /* serif elegante */
-  font-size: 3.5rem;
-  color: #f5c518; /* dorado intenso */
-  text-shadow: 3px 3px 10px rgba(245, 197, 24, 0.5);
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-/* ----- Subtítulo ----- */
-p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
-  color: #e0e0e0;
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-/* ----- Contenedor de botones ----- */
-.nav {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  height: 100vh;
+  margin: 0;
 }
 
-/* ----- Botones ----- */
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  background-color: #f5c518; /* fondo dorado intenso */
-  padding: 0.9rem 3rem;
-  border-radius: 15px; /* bordes circulares */
-  font-family: "Poppins", sans-serif; /* sans serif */
-  font-weight: 600;
-  letter-spacing: 1px;
-  transition: all 0.4s ease;
-  border: 2px solid #f5c518; /* borde dorado visible */
-  box-shadow: 0 0 10px rgba(245, 197, 24, 0.7);
-  display: inline-block;
-  width: 220px;
+/* ===== Contenedor principal ===== */
+main {
   text-align: center;
 }
 
-/* ----- Efecto al pasar el cursor ----- */
-.nav a:hover {
-  background-color: #fff; /* cambia a blanco */
-  color: #0d1b2a; /* texto oscuro */
-  transform: translateY(-4px);
-  box-shadow: 0 0 20px #f5c518, 0 0 40px #f5c518; /* efecto de brillo */
+/* ===== Título ===== */
+.titulo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #ffea5c;
+  text-shadow: 0 0 10px #ffea5c, 0 0 20px #ffd700;
+  margin-bottom: 0.3rem;
+}
+
+.titulo p {
+  font-weight: 300;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+/* ===== Navegación ===== */
+.navegacion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navegacion li {
+  margin: 15px 0;
+}
+
+/* ===== Botones / Enlaces ===== */
+.navegacion a {
+  text-decoration: none;
+  color: #0b0f26;
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  padding: 12px 35px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* ===== Efecto hover ===== */
+.navegacion a:hover {
+  background-color: #ffea5c;
+  border-color: #ffea5c;
+  color: #0b0f26;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffea5c, 0 0 25px #ffd700;
 }
