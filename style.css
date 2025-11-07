@@ -1,6 +1,6 @@
 /* ===== Estilos generales ===== */
 body {
-  background-color: #0b0f26;
+  background-color: #000000;
   color: #fff;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -43,7 +43,7 @@ main {
 /* ===== Botones / Enlaces ===== */
 .navegacion a {
   text-decoration: none;
-  color: #0b0f26;
+  color: #ff0095;
   background-color: #ffffff;
   font-size: 1.1rem;
   padding: 12px 35px;
@@ -58,7 +58,7 @@ main {
 .navegacion a:hover {
   background-color: #ffea5c;
   border-color: #ffea5c;
-  color: #0b0f26;
+  color: #fb009b;
   transform: scale(1.05);
   box-shadow: 0 0 15px #ffea5c, 0 0 25px #ffd700;
 }
