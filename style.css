@@ -34,6 +34,10 @@ main {
 .navegacion ul {
   list-style: none;
   padding: 0;
+  display: flex;          /* Activamos Flexbox */
+  flex-direction: column; /* Alineación vertical */
+  align-items: center;    /* Centra los botones horizontalmente */
+  gap: 15px;              /* Espacio uniforme entre botones */
 }
 
 .navegacion li {
